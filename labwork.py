@@ -1,8 +1,8 @@
-#convert in seconds to day,hours,minutes and seconds
-s=int(input("enter the value for seconds:"))
-day=(((s/60)/60)/24)
-print(f"total day for givevn seconds:{day}")
-hour=((s/60)/60)
-print(f"total hours for given seconds:{hour}")
-minute=(s/60)
-print(f"total minutes for given seconds:{minute}")
+#sum of three numbers
+a=int(input("enter first number"))
+b=int(input("enter second number"))
+c=int(input("enter third number"))
+d=a+b+c
+print(f"the sum of the three numbers is {d}")
+
+
